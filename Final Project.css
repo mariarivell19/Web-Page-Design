@@ -1,0 +1,98 @@
+/* Maria Rivell */
+/* Three Column Final Project */
+/* January 11, 2018 */
+
+/* This is the universal selector which changes the margins and padding for the entire page. */
+* { 
+    margin: 0;
+    padding: 0;}
+
+/* This controls the text alignment of the header and the color and size of the bottom border. */
+header { 
+    border-bottom: 2px solid #ff0000;
+    text-align: center;}
+
+/* This controls the width, margin, background color of the body. */
+body {
+    width: 964px;
+    background-color: #ffe6e6;
+    margin: 15px auto;}
+
+/* This controls the width, height, floatation, and size and color of the left side bar. */
+#sidebarA {
+    width: 22%;
+    height: 630px;     
+    float: left;
+    border-right: 2px solid #ff0000;
+    border-left: 2px solid #ff0000;}
+    
+/* This controls the text decorations and its margin size and color for the second heading. */
+h2 { 
+	text-decoration: underline;
+	text-align: left;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	margin-right: 15px;
+	margin-left: 15px;
+	color: #0033cc;}
+ 
+/* This controls the width, height, floatation, and margin of the first image. */
+.img1 {
+	float: left; 
+	width: 250px; 
+	height: 150px;
+	margin: 15px;}
+	
+/* This controls how big the margin is around paragraph 1, 2, and 3. */
+.p1 {
+	margin: 15px;}
+.p2 {
+	margin: 15px;
+	text-align: center;}
+.p3 {
+	margin: 15px;
+	text-align: center;}
+	
+/* This controls the text decorations and its margin size and color for the third heading. */
+h3 {
+	text-decoration: underline; 
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	margin-right: 15px;
+	margin-left: 15px;
+	color: #0033cc;}
+
+/* This controls the width, height, floatation, and margin of the second image. */
+.img2 {
+	float: center; 
+	width: 200px; 
+	height: 135px;
+	margin: 5px;}
+
+/* This controls the width and floatation of the main section. */
+main {
+    width: 55%; 
+    float: left;}
+
+/* This controls the text alignment of the figcaption. */
+figcaption {
+	text-align: center;}
+
+/* This controls the width, height, floatation, and size and color of the right side bar. */
+#sidebarB {
+    width: 22%;
+    height: 630px;     
+    float: right;
+    border-left: 2px solid #ff0000;
+    border-right: 2px solid #ff0000;}
+
+/* This controls the size and color of the bottom border. */
+footer {
+    clear: both; 
+    border-top: 2px solid #ff0000;
+    margin: 20px auto;}
+    
+/* This aligns the text to the right. */
+.p4 {
+	text-align: right;}
